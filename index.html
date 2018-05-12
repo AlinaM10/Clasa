@@ -10,59 +10,68 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
-        <table class="table table-bordered">
-            <thead>
-              <tr>
-                
-                <th scope="col">Task Name</th>
-                <th scope="col">Status</th>
-                
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                
-                <td>task_name1</td>
-                <td>lhjfhjgkhljgfh</td>
-                
-              </tr>
-              <tr>
-                
-                <td>task_name2</td>
-                <td>kgjnjihnk</td>
-                
-              </tr>
-              <tr>
-                
-                <td>task_name3</td>
-                <td>asdasf</td>
-                  
-              </tr>
-            </tbody>
-          </table>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <h5 class="card-search">Add a task</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Task</h5>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                        </form>
+                        <a href="#" class="btn btn-primary">Post</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h5 class="card-details">View Task</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Task_Name</h5>
+                        <p>Details</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <table class="table">
+                    <thead>
+                        <tr>
 
+                            <th scope="col"><h5>Task Name</h5></th>
+                            <th scope="col"><h5>Status</h5></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td>task_name1</td>
+                            <td>lhjfhjgkhljgfh</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>task_name2</td>
+                            <td>kgjnjihnk</td>
+
+                        </tr>
+                        <tr>
+
+                            <td>task_name3</td>
+                            <td>asdasf</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
-    <div class="card">
-        <h5 class="card-search">Add a task</h5>
-        <div class="card-body">
-            <h5 class="card-title">Task</h5>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            </form>
-            <a href="#" class="btn btn-primary">Post</a>
-        </div>
-    </div>
-    <div class="card">
-        <h5 class="card-details">View Task</h5>
-        <div class="card-body">
-            <h5 class="card-title">Task_Name</h5>
-            <p>Details</p>
-        </div>
-    </div>
-    
+
+
+
+
+
 
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
